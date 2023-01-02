@@ -4,7 +4,7 @@ import 'main_init/providers.dart';
 import 'main_init/routes.dart';
 import 'main_init/app_theme.dart';
 import 'main_init/injection_container.dart' as dependency_injector;
-import 'features/wss_management/presentation/pages/LaunchView/launch_view.dart';
+import 'src/presentation/pages/LaunchView/launch_view.dart';
 
 void main() async {
   await dependency_injector.init();
